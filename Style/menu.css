@@ -1,0 +1,227 @@
+/* Mobil */
+@media (max-width: 768px) {
+    .menu-section {
+        padding: 20px;
+        background-color: #171c18;
+    }
+
+    .menu-section .section-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .menu-section p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .menu-item {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .card-content .price {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card .order-button {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #fdb800;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .menu-section {
+        padding: 30px;
+        background-color: #171c18;
+    }
+
+    .menu-section .section-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .menu-section p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .menu-item {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card-content h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .card-content .price {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card .order-button {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #fdb800;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    .menu-section {
+        padding: 40px;
+        background-color: #171c18;
+    }
+
+    .menu-section .section-title {
+        font-size: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }  
+    
+    .menu-section p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .menu-item {        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 15px;
+    }
+
+    .card-content h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .card-content .price {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card .order-button {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #fdb800;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
