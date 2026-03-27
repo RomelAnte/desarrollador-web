@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 767px) {
     .hero {
-        background-image: url('../images/collage.jpg');
+        background-image: url('./images/collage.jpg');
         background-size: cover;
         background-position: center;
         height: 100dvh;
